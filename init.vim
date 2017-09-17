@@ -8,6 +8,8 @@ let g:ale_sign_column_always = 1
 
 " set encoding and guifont to make vim devicons work
 set encoding=utf8
+" automatically change the current working directory
+set autochdir
 set guifont=SauceCodePro\ Nerd\ Font\ Regular\ 14
 filetype plugin indent on
 set tabstop=4

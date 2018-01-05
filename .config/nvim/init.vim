@@ -34,3 +34,4 @@ source ~/.config/nvim/options.vimrc
 source ~/.config/nvim/keymaps.vimrc
 source ~/.config/nvim/plugins.vimrc
 source ~/.config/nvim/statusLine.vimrc
+source ~/.config/nvim/general.vimrc

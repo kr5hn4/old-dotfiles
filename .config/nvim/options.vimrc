@@ -1,5 +1,5 @@
 inoremap jk <Esc>
-colorscheme peachpuff
+colorscheme gruvbox
 
 " automatically change the current working directory
 set autochdir

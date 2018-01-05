@@ -1,4 +1,3 @@
-inoremap jk <Esc>
 colorscheme gruvbox
 
 " automatically change the current working directory

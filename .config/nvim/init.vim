@@ -28,6 +28,8 @@ call plug#begin()
   Plug 'godlygeek/tabular'
   Plug 'terryma/vim-multiple-cursors'
   Plug 'vim-airline/vim-airline'
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'junegunn/fzf.vim'
 call plug#end()
 
 source ~/.config/nvim/options.vimrc

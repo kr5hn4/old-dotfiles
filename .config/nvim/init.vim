@@ -30,6 +30,7 @@ call plug#begin()
   Plug 'vim-airline/vim-airline'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
+  Plug 'metakirby5/codi.vim'
 call plug#end()
 
 source ~/.config/nvim/options.vimrc

@@ -190,6 +190,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 exec_always polybar main
+exec_always compton -b
 
 set $base00 #101218
 set $base01 #1f222d

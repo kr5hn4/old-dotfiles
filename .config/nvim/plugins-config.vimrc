@@ -1,4 +1,4 @@
-" Ale specific vars
+" Ale config 
 let g:ale_javascript_eslint_use_global = 1
 let g:ale_linters = {'javascript': ['eslint']}
 let g:ale_fixers = {'javascript': ['prettier-eslint']}
@@ -19,6 +19,19 @@ let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
 
-" deoplete config
+" Deoplete config
 let g:deoplete#enable_at_startup = 1
 
+" NertTree config
+" open a NERDTree automatically when vim starts up
+autocmd vimenter * NERDTree
+
+" open a NERDTree automatically when vim starts up if no files were specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" map a specific key or shortcut to open NERDTree
+nmap <C-n> :NERDTreeToggle<CR>
+
+" close vim if the only window left open is a NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

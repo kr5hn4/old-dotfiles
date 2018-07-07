@@ -33,11 +33,13 @@ endif
   Plug 'pangloss/vim-javascript'
   Plug 'rust-lang/rust.vim'
   Plug 'scrooloose/nerdtree'
+  Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
   Plug 'terryma/vim-multiple-cursors'
   Plug 'tomtom/tcomment_vim'
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'
   Plug 'w0rp/ale'
+  Plug 'wellle/targets.vim'
 call plug#end()
 
 source ~/.config/nvim/general.vimrc

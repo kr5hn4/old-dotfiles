@@ -9,3 +9,6 @@ nnoremap ]e  :<c-u>execute 'move +'. v:count1<cr>
 nnoremap [<space>  :<c-u>put! =repeat(nr2char(10), v:count1)<cr>'[
 nnoremap ]<space>  :<c-u>put =repeat(nr2char(10), v:count1)<cr>
 
+" map leader+s to save file
+nnoremap <leader>s :w<cr>
+inoremap <leader>s <C-o>:w<cr>

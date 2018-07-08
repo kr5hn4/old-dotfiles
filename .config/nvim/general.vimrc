@@ -9,3 +9,5 @@ else
   let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
 endif
 
+" set space bar as leader key
+let mapleader = "\<Space>"

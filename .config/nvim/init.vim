@@ -33,6 +33,7 @@ endif
   Plug 'pangloss/vim-javascript'
   Plug 'rust-lang/rust.vim'
   Plug 'scrooloose/nerdtree'
+  Plug 'ervandew/supertab'
   Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
   Plug 'terryma/vim-multiple-cursors'
   Plug 'tomtom/tcomment_vim'

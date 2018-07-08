@@ -34,6 +34,8 @@ nmap <C-n> :NERDTreeToggle<CR>
 
 " close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let NERDTreeMinimalUI = 1
+let g:webdevicons_enable = 0
 
 " Set up supertab for tab completion
 let g:SuperTabDefaultCompletionType = "<c-n>"

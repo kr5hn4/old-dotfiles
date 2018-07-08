@@ -10,8 +10,8 @@ nnoremap [<space>  :<c-u>put! =repeat(nr2char(10), v:count1)<cr>'[
 nnoremap ]<space>  :<c-u>put =repeat(nr2char(10), v:count1)<cr>
 
 " map leader+s to save file
-nnoremap <leader>s :w<cr>
-inoremap <leader>s <C-o>:w<cr>
+nnoremap <C-s> :w<cr>
+inoremap <C-s> <C-o>:w<cr>
 
 " map ctrl+direction to change panes
 noremap <C-l> <C-w>l

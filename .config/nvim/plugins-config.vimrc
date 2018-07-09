@@ -36,6 +36,7 @@ nmap <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let NERDTreeMinimalUI = 1
 let g:webdevicons_enable = 0
+let g:NERDTreeWinSize=20
 
 " Set up supertab for tab completion
 let g:SuperTabDefaultCompletionType = "<c-n>"

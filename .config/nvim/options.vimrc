@@ -17,6 +17,7 @@ set autoread                    " Automatically read file changes if it has been
 set cursorline                  " Highlight the line on which the cursor is
 " set foldopen=all              " Automatically open folds when the cursor is on them
 " set foldclose=all             " Automatically close folds when cursor moves out of the fold area
+set completeopt=menu
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.

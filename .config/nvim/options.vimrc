@@ -12,6 +12,7 @@ set ruler
 set backspace=indent,eol,start
 set background=dark
 set laststatus=2                " Enable status bar all the time
+set inccommand=nosplit
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.

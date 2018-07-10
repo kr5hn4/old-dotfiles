@@ -12,7 +12,11 @@ set ruler
 set backspace=indent,eol,start
 set background=dark
 set laststatus=2                " Enable status bar all the time
-set inccommand=nosplit
+set inccommand=nosplit          " Show effects of command incrementally as you type
+set autoread                    " Automatically read file changes if it has been changed by some other program
+set cursorline                  " Highlight the line on which the cursor is
+" set foldopen=all              " Automatically open folds when the cursor is on them
+" set foldclose=all             " Automatically close folds when cursor moves out of the fold area
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.

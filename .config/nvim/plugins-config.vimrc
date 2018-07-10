@@ -44,3 +44,11 @@ let g:NERDTreeWinSize=20
 
 " Set up supertab for tab completion
 let g:SuperTabDefaultCompletionType = "<c-n>"
+
+" Limelight
+let g:limelight_conceal_ctermfg = 'gray'
+autocmd VimEnter * Limelight
+
+" Goyo
+let g:goyo_linenr=1
+

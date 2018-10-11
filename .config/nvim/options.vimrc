@@ -1,5 +1,6 @@
 colorscheme gruvbox
 
+set termguicolors
 set autochdir                   " Automatically change the current working directory
 filetype plugin indent on
 set tabstop=4
@@ -49,3 +50,5 @@ set mouse=a                     " Enable mouse usage (all modes)
 "endif
 
 filetype plugin on 
+
+

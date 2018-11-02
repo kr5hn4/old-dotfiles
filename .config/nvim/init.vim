@@ -4,15 +4,19 @@
 
 call plug#begin()
   "add plugins in here
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
+" if has('nvim')
+"   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+"   Plug 'Shougo/deoplete.nvim'
+"   Plug 'roxma/nvim-yarp'
+"   Plug 'roxma/vim-hug-neovim-rpc'
+" endif
   " Plug 'airblade/vim-gitgutter'
+  Plug 'mileszs/ack.vim'
+  Plug 'jiangmiao/auto-pairs'
   Plug 'SirVer/ultisnips'
+  Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-sensible'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'ap/vim-css-color'
   Plug 'editorconfig/editorconfig-vim'
@@ -31,6 +35,7 @@ endif
   Plug 'mhinz/vim-startify'
   Plug 'othree/html5.vim'
   Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
   Plug 'rust-lang/rust.vim'
   Plug 'scrooloose/nerdtree'
   Plug 'ervandew/supertab'

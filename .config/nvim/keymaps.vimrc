@@ -9,10 +9,6 @@ nnoremap ]e  :<c-u>execute 'move +'. v:count1<cr>
 nnoremap [<space>  :<c-u>put! =repeat(nr2char(10), v:count1)<cr>'[
 nnoremap ]<space>  :<c-u>put =repeat(nr2char(10), v:count1)<cr>
 
-" map leader+s to save file
-nnoremap <C-s> :w<cr>
-inoremap <C-s> <C-o>:w<cr>
-
 " map ctrl+direction to change panes
 noremap <C-l> <C-w>l
 noremap <C-h> <C-w>h
@@ -31,6 +27,7 @@ noremap <A-8> 8gt
 noremap <A-9> 9gt
 noremap <A-0> :tablast<cr>
 
-
+" Go to next/previous tab
 noremap <A-h> gT
 noremap <A-l> gt
+

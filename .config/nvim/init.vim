@@ -40,7 +40,6 @@ call plug#begin()
   Plug 'scrooloose/nerdtree'
   Plug 'ervandew/supertab'
   Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
-  Plug 'terryma/vim-multiple-cursors'
   Plug 'tomtom/tcomment_vim'
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'

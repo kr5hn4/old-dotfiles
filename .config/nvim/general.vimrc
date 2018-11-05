@@ -17,3 +17,6 @@ augroup TerminalStuff
   au! 
   autocmd TermOpen * setlocal nonumber norelativenumber laststatus=0
 augroup END
+
+" Hide tmux status bar when vim is opened inside tmux
+autocmd VimEnter,VimLeave * silent !tmux set status

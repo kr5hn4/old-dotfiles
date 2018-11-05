@@ -4,14 +4,17 @@
 
 call plug#begin()
   "add plugins in here
-" if has('nvim')
-"   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" else
-"   Plug 'Shougo/deoplete.nvim'
-"   Plug 'roxma/nvim-yarp'
-"   Plug 'roxma/vim-hug-neovim-rpc'
-" endif
-  " Plug 'airblade/vim-gitgutter'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+  Plug 'carlitux/deoplete-ternjs'
+  Plug 'mbbill/undotree'
+  Plug 'wincent/terminus'
+  Plug 'airblade/vim-gitgutter'
   Plug 'mileszs/ack.vim'
   Plug 'jiangmiao/auto-pairs'
   Plug 'SirVer/ultisnips'
@@ -26,7 +29,6 @@ call plug#begin()
   Plug 'godlygeek/tabular'
   Plug 'gregsexton/MatchTag'
   Plug 'honza/vim-snippets'
-  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
   Plug 'junegunn/goyo.vim'
   Plug 'junegunn/limelight.vim'
@@ -39,7 +41,6 @@ call plug#begin()
   Plug 'rust-lang/rust.vim'
   Plug 'scrooloose/nerdtree'
   Plug 'ervandew/supertab'
-  Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
   Plug 'tomtom/tcomment_vim'
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'

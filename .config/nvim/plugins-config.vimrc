@@ -19,7 +19,11 @@ let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
 
 " Deoplete config
-" let g:deoplete#enable_at_startup = 1
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#ternjs#types = 1
+let g:deoplete#sources#ternjs#docs = 1
+set completeopt=longest,menuone,preview
+
 
 " NertTree config
 " open a NERDTree automatically when vim starts up
@@ -45,6 +49,9 @@ let g:NERDTreeWinSize=20
 " Set up supertab for tab completion
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 autocmd FileType javascript let g:SuperTabDefaultCompletionType = "<c-x><c-o>" 
+" Close preview window automatically
+let g:SuperTabClosePreviewOnPopupClose = 1
+
 
 " Limelight
 let g:limelight_conceal_ctermfg = 'gray'
@@ -52,3 +59,8 @@ let g:limelight_conceal_ctermfg = 'gray'
 
 " Goyo
 let g:goyo_linenr=1
+
+" Make ack use ag for searching
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif

@@ -12,6 +12,7 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
   Plug 'carlitux/deoplete-ternjs'
+  Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'] }
   Plug 'mbbill/undotree'
   Plug 'wincent/terminus'
   Plug 'airblade/vim-gitgutter'

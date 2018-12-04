@@ -16,6 +16,7 @@ set laststatus=2                " Enable status bar all the time
 set inccommand=nosplit          " Show effects of command incrementally as you type
 set autoread                    " Automatically read file changes if it has been changed by some other program
 set cursorline                  " Highlight the line on which the cursor is
+" set foldmethod=syntax
 " set foldopen=all              " Automatically open folds when the cursor is on them
 " set foldclose=all             " Automatically close folds when cursor moves out of the fold area
 set completeopt=menu
@@ -51,4 +52,9 @@ set mouse=a                     " Enable mouse usage (all modes)
 
 filetype plugin on 
 
+highlight ColorColumn ctermbg=red
+set colorcolumn=81
+
+set listchars=tab:..,trail:_,extends:>,precedes:<,nbsp:~
+set list
 

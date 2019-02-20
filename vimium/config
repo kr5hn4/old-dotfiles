@@ -1,0 +1,17 @@
+# Custom keymappings
+
+# Insert your preferred key mappings here.
+unmap h
+unmap l
+map h previousTab
+map l nextTab
+unmap J
+unmap K 
+map J goBack
+map K goForward
+
+# Custom search engines
+w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
+g: https://www.google.com/search?q=%s Google
+az: https://www.amazon.com/s/?field-keywords=%s Amazon
+y: https://www.youtube.com/results?search_query=%s Youtube

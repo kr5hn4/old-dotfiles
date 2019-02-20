@@ -3,11 +3,11 @@ colorscheme gruvbox
 set termguicolors
 set autochdir                   " Automatically change the current working directory
 filetype plugin indent on
-set tabstop=4
+    set tabstop=4
 set shiftwidth=4
 set expandtab
 set guifont=SauceCodePro\ Nerd\ Font\ 12 
-set number                      " Show line number
+    set number                      " Show line number
 set relativenumber              " Show relative line numbers
 set ruler
 set backspace=indent,eol,start
@@ -54,7 +54,5 @@ filetype plugin on
 
 highlight ColorColumn ctermbg=red
 set colorcolumn=81
-
-set listchars=tab:..,trail:_,extends:>,precedes:<,nbsp:~
 set list
-
+set listchars=tab:»\ ,trail:·

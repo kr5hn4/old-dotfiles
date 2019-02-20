@@ -33,6 +33,7 @@ endif
   Plug 'junegunn/fzf.vim'
   Plug 'junegunn/goyo.vim'
   Plug 'junegunn/limelight.vim'
+  Plug 'junegunn/vim-easy-align'
   Plug 'mattn/emmet-vim'
   Plug 'metakirby5/codi.vim'
   Plug 'mhinz/vim-startify'

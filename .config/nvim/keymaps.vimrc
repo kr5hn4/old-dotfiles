@@ -31,3 +31,8 @@ noremap <A-0> :tablast<cr>
 noremap <A-h> gT
 noremap <A-l> gt
 
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)

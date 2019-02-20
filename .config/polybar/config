@@ -52,7 +52,7 @@ font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=15;1"
 font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=15;1"
 font-4 = "Font Awesome 5 Brands:pixelsize=15;1"
 
-modules-left = i3 arrow0 i3index arrow
+/* modules-left = i3 arrow0 i3index arrow */
 modules-center = arrow8 date
 modules-right = arrow8 memory arrow6 cpu arrow7 battery arrow6 volume arrow7 
 

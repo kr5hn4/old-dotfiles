@@ -272,7 +272,7 @@ hide_edge_borders both
 default_border none
 
 # Start rofi (a program launcher)
-bindsym $mod+d exec rofi -show run -lines 5 -eh 2 -width 100 -padding 500 -opacity "80" -bw 0 -bc "#00ff00" -bg "#0000ff" -fg "#ff00ff" -hlbg "#00ff00" -columns 1 -font "System San Francisco Display 18" -hlfg "#9575cd"
+bindsym $mod+d exec rofi -show run -lines 5 -eh 2 -width 70 -padding 500 -opacity "80" -bw 0 -bc "#00ff00" -bg "#0000ff" -fg "#ff00ff" -hlbg "#00ff00" -columns 1 -font "System San Francisco Display 18" -hlfg "#9575cd"
 
 # Take screenshot
 bindcode 107 exec scrot ~/Pictures/Screenshots/%b%d::%H%M%S.png

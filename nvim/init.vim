@@ -48,6 +48,7 @@ endif
   Plug 'vim-airline/vim-airline'
   Plug 'w0rp/ale'
   Plug 'wellle/targets.vim'
+  Plug 'othree/html5.vim'
 call plug#end()
 
 source ~/.config/nvim/general.vimrc

@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""
-"Author:kr5hn4"""""""""""""""""
+" Author:kr5hn4 """""""""""""""
 """""""""""""""""""""""""""""""
 
 call plug#begin()
@@ -12,11 +12,9 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
   Plug 'carlitux/deoplete-ternjs'
-  Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'] }
+  Plug 'dense-analysis/ale'
   Plug 'mbbill/undotree'
-  Plug 'wincent/terminus'
   Plug 'airblade/vim-gitgutter'
-  Plug 'mileszs/ack.vim'
   Plug 'jiangmiao/auto-pairs'
   Plug 'SirVer/ultisnips'
   Plug 'tpope/vim-fugitive'
@@ -28,7 +26,6 @@ endif
   Plug 'fatih/vim-go'
   Plug 'flazz/vim-colorschemes'
   Plug 'godlygeek/tabular'
-  Plug 'gregsexton/MatchTag'
   Plug 'honza/vim-snippets'
   Plug 'junegunn/fzf.vim'
   Plug 'junegunn/goyo.vim'
@@ -46,9 +43,9 @@ endif
   Plug 'tomtom/tcomment_vim'
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'
-  Plug 'w0rp/ale'
   Plug 'wellle/targets.vim'
-  Plug 'othree/html5.vim'
+  Plug 'Shougo/denite.nvim'
+  Plug 'nathanaelkane/vim-indent-guides'
 call plug#end()
 
 source ~/.config/nvim/general.vimrc
